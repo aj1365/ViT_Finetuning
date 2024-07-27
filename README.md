@@ -1,4 +1,4 @@
-# Vision Transformer Classification
+# Satellite Scene Classification using a Pre-trained Vision Transformer
 
 This project fine-tune a pretrained Vision Transformer (ViT) model on the NWPU-RESISC45 dataset for scene classification using the HuggingFace Transformers library.
 
