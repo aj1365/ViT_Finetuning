@@ -24,8 +24,11 @@ Run the training script with command line arguments to specify hyperparameters:
 
 
 --data_dir: Path to the NWPU-RESISC45 dataset directory.
+
 --batch_size: Batch size for training.
+
 --eval_batch_size: Batch size for evaluation.
+
 --epochs: Number of training epochs.
 
 ```bash
