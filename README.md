@@ -20,7 +20,7 @@ This project fine-tune a pretrained Vision Transformer (ViT) model on the NWPU-R
 
 ## Usage
 
-Run the training script with command line arguments to specify hyperparameters:
+Run the training script with command line arguments to specify settings:
 
 
 --data_dir: Path to the NWPU-RESISC45 dataset directory.
