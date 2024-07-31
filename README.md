@@ -6,7 +6,7 @@ This project fine-tune a pretrained Vision Transformer (ViT) model on the NWPU-R
 
 1. Clone this repository:
     ```bash
-    git clone <your-repo-url>
+    git clone <https://github.com/aj1365/ViT_Finetuning>
     cd <your-repo-directory>
     ```
 
