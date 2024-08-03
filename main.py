@@ -1,4 +1,4 @@
-### This code is written by Ali Jamali
+### This code is written by Ali Jamali (ali.jamali.65@gmail.com)
 
 import argparse
 import torch
