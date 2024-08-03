@@ -1,3 +1,5 @@
+### This code is written by Ali Jamali
+
 import argparse
 import torch
 from transformers import ViTForImageClassification, TrainingArguments, Trainer
