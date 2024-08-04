@@ -1,6 +1,5 @@
 transformers[torch]
 datasets
-accelerate
 numpy
 matplotlib
 seaborn
