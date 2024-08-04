@@ -3,7 +3,7 @@
 import argparse
 import torch
 from transformers import ViTForImageClassification, TrainingArguments, Trainer
-from utils import load_and_preprocess_dataset, plot_predicted_samples
+from utils import load_and_preprocess_dataset, plot_predicted_samples, compute_confusion_matrix
 
 def main(args):
     # Load and preprocess the dataset
@@ -52,6 +52,9 @@ def main(args):
 
     # Plot some predictions
     plot_predicted_samples(trainer, dataset['test'], num_samples=20)
+
+    # Compute confusion matrix
+    compute_confusion_matrix(trainer, dataset['test'])
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Train a Vision Transformer on the NWPU-RESISC45 dataset")
