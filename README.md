@@ -14,8 +14,10 @@ This project fine-tune a pretrained Vision Transformer (ViT) model on the NWPU-R
     pip install -r requirements.txt
     ```
 
-3. Download the NWPU-RESISC45 dataset from Kaggle and place it in your preferred directory.
-
+3. Download the NWPU-RESISC45 dataset from Kaggle and place it in your preferred directory:
+ ```bash
+https://www.kaggle.com/datasets/aqibrehmanpirzada/nwpuresisc45
+ ```
 
 ## Usage
 
